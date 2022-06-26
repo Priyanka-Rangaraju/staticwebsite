@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://img.freepik.com/free-photo/beautiful_1203-2633.jpg?t=st=1655915360~exp=1655915960~hmac=3a3c2a24afd1aec44b8588e724a535e092a9faf61443338429ac67cfb5848095&w=1060");
+    ;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.my-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 15px;
+}
+
+.main-heading {
+    color: #51beed;
+    font-family: "Verdana";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragraph {
+    color: #2c6a85;
+    font-style: italic;
+}
+
+.my-button {
+    height: 35px;
+    width: 100px;
+    background-color: #9af0f5;
+    border-radius: 25px;
+    border-width: 0px;
+}
+
+
+.backgound-container {
+    background-image: url("https://img.freepik.com/free-photo/beautiful-tropical-empty-beach-sea-ocean-with-white-cloud-blue-sky-background_74190-13665.jpg?t=st=1655999162~exp=1655999762~hmac=9574abecb3deeb9749bb3da422baf1306046e96e35752ae26940f26e65af0183&w=1060");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.heading-container {
+    font-family: "Roboto";
+    color: White;
+    text-align: center;
+}
+
+.parag {
+    font-size: 12px;
+    text-align: left;
+}
+
+.card-container {
+    background-color: #f5f4ce;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.card-heading {
+    font-family: "Times New Roman";
+    font-weight: 200;
+}
+
+.card-image {
+    width: 150px;
+    height: 170px;
+}
+
+.top-container {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading1-container {
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: bold;
+}
+
+.card1-container {
+    background-color: lightblue;
+    margin: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.text-container {
+    padding: 12px;
+}

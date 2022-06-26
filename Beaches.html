@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Static Website </title>
+ <link rel="stylesheet" href="Beachcss.css" type="text/css">
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="my-card">
+                <h1 class="main-heading">Florida Beaches</h1>
+                <p class="paragraph">Happiness comes in waves</p>
+                <button class="my-button" onclick="display('sectionpage')">Lets go</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionpage">
+        <div class="backgound-container">
+            <h1 class="heading-container">Here you go...</h1>
+            <div class="card-container d-flex flex-row" onclick="display('sectionsiestakey')">
+                <div>
+                    <h3 class="card-heading">Siesta Key</h3>
+                    <p class="parag">Popular among couples and families, this fun-filled barrier island sits off the coast of Sarasota on the Gulf of Mexico. Siesta Beach features 8 miles of white quartz sand and crystal-clear water, plus dining, shopping and nighttime entertainment. Crescent Beach, another top-notch option, is ideal for travelers seeking soft white sand, beautiful scenery and a quieter atmosphere. Meanwhile, Turtle Beach is a great spot for long walks, easy parking and shell collecting.</p>
+                </div>
+                <img src="https://365atlantatraveler.com/wp-content/uploads/2022/02/siesta-beach.jpeg" class="card-image" />
+            </div>
+            <div class="card-container d-flex flex-row" onclick="display('sectionmarcoisland')">
+                <div>
+                    <h3 class="card-heading">Marco Island</h3>
+                    <p class="parag">Accessible via two bridges from Naples, Florida, Marco Island entices visitors with its unique mix of high-end resorts and unspoiled habitats. Boating is a popular pastime here, and seafood lovers will find mouthwatering meals available at many local eateries. Of course, Marco Island's spotless beaches are perhaps its best feature. Tigertail Beach Park attracts vacationers looking to take long walks, search for seashells or rent kayaks, while South Marco Beach – situated alongside resorts and condos – offers plenty of space for sunbathing and swimming.</p>
+                </div>
+                <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/marco-island-beach-at-sunset-debra-kewley.jpg" class="card-image" />
+            </div>
+            <div class="card-container d-flex flex-row" onclick="display('sectionpalmbeach')">
+                <div>
+                    <h3 class="card-heading">Palm Beach</h3>
+                    <p class="parag">Palm Beach has something to offer every type of traveler. This glitzy resort town, located about 70 miles north of Miami, is filled to the brim with upscale restaurants, spectacular Gilded Age mansions and sophisticated art galleries. Head to the town's Municipal Beach to sunbathe and swim, or hit up Phipps Ocean Park for shelling and snorkeling.</p>
+                </div>
+                <img src="https://assets.getsmartcontent.com/Z83SFFHV/CF018046-1.jpeg" class="card-image" />
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionsiestakey">
+        <div class="top-container">
+            <h1 class="heading1-container">Detailed view</h1>
+            <div class="card1-container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.wesellsarasota.com/wp-content/uploads/2019/08/siesta-key-beach-sign.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://csginger.com/wp-content/uploads/2022/03/derrick-payton-4dS8w5PeXwY-unsplash.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.planetware.com/wpimages/2022/01/florida-siesta-key-best-beaches-siesta-key-beach.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <h1>Siesta Beach</h1>
+                    <p>A short drive from downtown Sarasota, Siesta Key sits adjacent to the glittering Gulf of Mexico and its Siesta Public Beach has been named the nation’s best -- twice. This quaint yet quirky 8-mile-long island offers shopping, resorts, dining and nightlife. Known for its brilliant quartz sand, turquoise waters and many beachside amenities, Siesta Key is a must-visit island paradise. Siesta Key offers something for everyone. Siesta Key is a romantic getaway for lovers, a family vacation destination and a playground for active sports enthusiasts. And don’t forget: Wherever you stay, the beach and bay are always nearby.</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionpage')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionmarcoisland">
+        <div class="top-container">
+            <h1 class="heading1-container">Detailed view</h1>
+            <div class="card1-container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/81+qIXN+vLL.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.paradisecoast.com/sites/default/files/profiles/photos/listing-1103-marco%20escapes.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://travelcrog.com/wp-content/uploads/2021/03/Things-to-Do-on-Marco-Island.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <h1>Marco Island</h1>
+                    <p>Marco Island is a small sea island, or barrier island, on the Gulf Coast of the United States. Located 20 miles (32 km) south of Naples in Collier County, Florida it is 198 nautical miles to Havana. It is the largest of the Ten Thousand Islands. Marco Island is an affluent beach and boating resort island with a small-town character. It is home to the JW Marriott Marco Island Beach Resort and Hilton Marco Island Resort, a golf club, a yacht club, a country club, several parks, and nature areas. The six-mile crescent beach on Marco Island is among the widest in Florida and features bright white, sugar sand, and bountiful shelling opportunities. There are two public access locations with parking and amenities (Tigertail and South Beach), a private beach complex for residents (Residents' Beach), and a private parking area for residents (Sarazen Park at South Beach), and two other public access points (with no amenities). Access to offshore island beaches, such as Keewaydin, are conveniently accessed by boat or tour. Marco is close to the shopping and restaurants of Naples.</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionpage')">Back</button>
+        </div>
+    </div>
+
+
+    <div id="sectionpalmbeach">
+        <div class="top-container">
+            <h1 class="heading1-container">Detailed view</h1>
+            <div class="card1-container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://media.timeout.com/images/105242166/image.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://photos.zillowstatic.com/fp/ef0aa4d87f2f69605f5d1ba31a1f5189-cc_ft_960.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.tollbrothers.com/search/metro/west-palm-beach/beach.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <h1>Palm Beach</h1>
+                    <p>Palm Beach is a town in South Florida, separated from the mainland by the Lake Worth Lagoon. It’s known for its glitzy estates and its beaches, including the long, sandy Palm Beach Municipal Beach. Worth Avenue is lined with upscale boutiques, galleries and restaurants. Art and antique furnishings are displayed at the Henry Morrison Flagler Museum, inside the hotel and railroad tycoon’s huge Gilded Age mansion. </p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionpage')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
